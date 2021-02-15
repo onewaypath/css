@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'oklahoma-regular';
+  src: url("main/fonts/oklahoma_normal-webfont.woff") format("woff");
+font-display: swap;
+}
+
+@font-face {
+  
+  font-family: 'open-sans-regular';
+  src: url("main/fonts/open-sans-regular.ttf");
+	font-display: swap;
+}
+
+html {
+	background-color:white;
+}
+body {
+	text-align: center;
+	background-color: #dae1e7;
+	padding:20%;
+	padding-top:10%;
+	margin:20px;
+}
+
+h1 {
+	font-family: 'oklahoma-regular';
+	text-transform: uppercase;
+	color: #ca972b;
+   	font-size: 62px;
+	font-weight: normal;
+	margin:10px;
+	margin-bottom:1px;
+}
+
+h2 {
+	font-family: 'oklahoma-regular';
+	text-transform: uppercase;
+	font-size:40px;
+	margin-top:1px;
+	margin-bottom:60px;
+}
+
+ h2:before {
+  position: absolute;
+  content: "";
+  top: calc(50% - 2px);
+  height: 2px;
+  width: 135px;
+  left: -150px;
+  background-color: #000;
+}
+
+ h2:after {
+  position: absolute;
+  content: "";
+  top: calc(50% - 2px);
+  height: 2px;
+  width: 135px;
+  right: -150px;
+  background-color: #000;
+}
+
+h3 {
+	display:inline-block;
+	width:157px;
+	height:auto;
+	margin-left:40px;
+	margin-right:40px;
+	font-size:17px;
+	font-family:"open-sans-regular"
+	
+}
+
+p {
+font-size:19px;
+font-family:"open-sans-regular"
+}
+
+a {
+	color:black;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#ca972b;
+	text-decoration:none;
+}
+
+footer {
+	margin-top:170px;
+	display:inline-block;
+}
+
+footer p {
+	display:inline;
+}
+
+
+h3 a img:nth-child(2){
+  display: none;
+}
