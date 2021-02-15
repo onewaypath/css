@@ -10,7 +10,7 @@ font-display: swap;
 @font-face {
   
   font-family: 'open-sans-regular';
-  src: url("main/fonts/open-sans-regular.ttf");
+  src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/open-sans-regular.ttf");
 	font-display: swap;
 }
 
