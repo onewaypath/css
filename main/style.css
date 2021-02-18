@@ -155,8 +155,8 @@ footer {
   }
 
   body h1:nth-child(2)::before {
-    width: 90px;
-    margin-left: 80px;
+    width: 85px;
+    margin-left: 85px;
   }
 
   body h1:nth-child(2):after {
@@ -214,5 +214,15 @@ footer {
 
   p {
     max-width: 82%;
+  }
+}
+
+@media all and (max-width: 280px) {
+  body h1:nth-child(2):after {
+    display: none;
+  }
+
+  body h1:nth-child(2)::before {
+    display: none;
   }
 }
