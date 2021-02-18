@@ -80,7 +80,7 @@ body h1:nth-child(2):before {
 body h1:nth-child(2):after {
   content: "";
   display: block;
-  width: 130px;
+  width: 131px;
   height: 2px;
   background: #000;
   margin-left: 320px;
@@ -161,7 +161,7 @@ footer {
 
   body h1:nth-child(2):after {
     width: 80px;
-    margin-left: 280px;
+    margin-left: 284px;
   }
 
   p {
@@ -195,7 +195,7 @@ footer {
 
   body h1:nth-child(2):after {
     margin-left: 180px;
-    width: 82px;
+    width: 83.5px;
   }
 }
 
@@ -204,12 +204,12 @@ footer {
     font-size: 30px;
   }
   body h1:nth-child(2):after {
-    width: 55px;
+    width: 51px;
   }
 
   body h1:nth-child(2)::before {
     width: 55px;
-    margin-left: 15px;
+    margin-left: 12px;
   }
 
   p {
