@@ -26,7 +26,8 @@
 body {
   text-align: center;
   margin: 0px;
-  background: #dae1e7;
+  /*background: #dae1e7;*/
+background: #cae3d1;
   padding-top: 80px;
   padding-bottom: 30px;
   min-height: 100vh;
@@ -118,6 +119,7 @@ h2 a {
 
 h2 a:hover {
   color: #ca972b;
+	
 }
 
 h2 a img:nth-child(2) {
@@ -136,9 +138,12 @@ h2 img {
   margin-top: -130px;
 }
 
-/** hide the footer as per requested **/
-footer {
-  display: none;
+
+footer p {
+  /*display: none;*/
+/*color: #ca2b2b;*/
+font-size: 18px;
+font-weight:bold;
 }
 
 @media all and (max-width: 767px) {
