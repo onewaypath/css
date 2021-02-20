@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document: about.css */
+
+
+p {
+  
+  margin: 20px auto 20px auto;
+  text-align: left;
+}
+
+footer p {
+	text-align:center
+}
+
