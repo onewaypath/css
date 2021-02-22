@@ -26,8 +26,7 @@
 body {
   text-align: center;
   margin: 0px;
-  /*background: #dae1e7;*/
-background: #cae3d1;
+  background: #cae3d1;
   padding-top: 80px;
   padding-bottom: 30px;
   min-height: 100vh;
@@ -35,34 +34,35 @@ background: #cae3d1;
   border: solid 20px #fff;
 }
 
-h2, h3, h4, p {
-	font-family: open-sans-regular, sans-serif;
-	color: #030004;
-	font-weight: 400;
-	font-size: 21px;
-	max-width: 650px;
-	margin-top: 50px;
-	margin-left:auto;
-	margin-right:auto;
-	line-height: 30px;
+h2,
+h3,
+h4,
+p {
+  font-family: open-sans-regular, sans-serif;
+  color: #030004;
+  font-weight: 400;
+  font-size: 21px;
+  max-width: 650px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
 }
 
-
-
 h2 {
-	
-	font-size: 21px;
-	font-weight: 900;
+  font-size: 21px;
+  font-weight: 900;
 }
 
 h3 {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 p {
-font-size: 16px;
+  font-size: 16px;
 }
 
+/** Group header **/
 body h1:nth-child(1) {
   color: #ca972b;
   font-size: 62px;
@@ -72,7 +72,6 @@ body h1:nth-child(1) {
   margin-bottom: 18px;
 }
 
-/** Group header **/
 body h1:nth-child(2) {
   text-transform: uppercase;
   font-size: 40px;
@@ -106,8 +105,7 @@ body h1:nth-child(2):after {
   position: absolute;
 }
 
-
-
+/** footer **/
 footer a {
   font-family: open-sans-regular, sans-serif;
   text-decoration: none;
@@ -115,13 +113,11 @@ footer a {
   font-size: 18px;
 }
 
-
 footer a:hover {
   color: #ca972b;
-	
 }
 
-
+/** media query **/
 @media all and (max-width: 767px) {
   body {
     padding-top: 80px;
@@ -143,24 +139,6 @@ footer a:hover {
   body h1:nth-child(2):after {
     width: 80px;
     margin-left: 284px;
-  }
-
-  p {
-    line-height: 1.5;
-    max-width: 350px;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 50px auto 20px auto;
-  }
-
-  h2 {
-    display: block;
-    width: 180px;
-    margin: 80px auto;
-  }
-
-  h2 img {
-    border: solid 2px #000;
   }
 }
 
@@ -191,10 +169,6 @@ footer a:hover {
   body h1:nth-child(2)::before {
     width: 55px;
     margin-left: 12px;
-  }
-
-  p {
-    max-width: 82%;
   }
 }
 

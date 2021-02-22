@@ -1,9 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-
 p {
-  
   margin: 80px auto 30px auto;
   font-size: 21px;
 }
@@ -17,7 +15,6 @@ h2 {
   display: inline-block;
   width: 25%;
   max-width: 300px;
-  margin-top:15px;
 }
 
 h2 img {
@@ -39,9 +36,7 @@ h2 a {
 }
 
 h2 a:hover {
-  /*color: #ca972b;*/
-	color:#ca432b;
-	
+  color: #ca432b;
 }
 
 h2 a img:nth-child(2) {
@@ -60,3 +55,28 @@ h2 img {
   margin-top: -130px;
 }
 
+@media all and (max-width: 767px) {
+  p {
+    line-height: 1.5;
+    max-width: 350px;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 50px auto 20px auto;
+  }
+
+  h2 {
+    display: block;
+    width: 180px;
+    margin: 80px auto;
+  }
+
+  h2 img {
+    border: solid 2px #000;
+  }
+}
+
+@media all and (max-width: 400px) {
+  p {
+    max-width: 82%;
+  }
+}
