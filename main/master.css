@@ -3,35 +3,37 @@
 
 @font-face {
   font-family: "oklahomaregular";
-  src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/oklahoma_normal-webfont.woff")
-    format("woff");
+  src: url("../fonts/oklahoma_normal-webfont.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "oklahomabold";
-  src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/oklahoma_bold-webfont.woff")
-    format("woff");
+  src: url("../fonts/oklahoma_bold-webfont.woff") format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: "open-sans-regular";
-  src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/open-sans-regular.ttf");
+  src: url("../fonts/open-sans-regular.ttf");
   font-display: swap;
 }
 
 /* basic **/
 
+html {
+  border: solid 20px #fff;
+}
+
 body {
   text-align: center;
-  margin: 0px;
   background: #cae3d1;
   padding-top: 80px;
   padding-bottom: 30px;
   min-height: 100vh;
   box-sizing: border-box;
-  border: solid 20px #fff;
+  max-width: 650px;
+  margin: auto;
 }
 
 h2,
@@ -106,6 +108,14 @@ body h1:nth-child(2):after {
 }
 
 /** footer **/
+footer {
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+}
+
 footer a {
   font-family: open-sans-regular, sans-serif;
   text-decoration: none;

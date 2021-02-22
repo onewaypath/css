@@ -1,14 +1,40 @@
 @charset "UTF-8";
 /* CSS Document: about.css */
 
-
-p {
-  
-  margin: 20px auto 20px auto;
+h2 {
   text-align: left;
 }
 
-footer p {
-	text-align:center
+p {
+  text-align: left;
+  margin-top: 0px;
 }
 
+h2 + p {
+  float: left;
+  margin-right: 20px;
+}
+
+h2 + p img {
+  width: 100%;
+  max-width: 200px;
+}
+
+figcaption {
+  display: none;
+}
+
+@media all and (max-width: 720px) {
+  h2,
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media all and (max-width: 410px) {
+  h2 + p {
+    float: none;
+    margin-right: 20px;
+  }
+}
