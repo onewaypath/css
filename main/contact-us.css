@@ -41,8 +41,20 @@ body > p:last-of-type {
   border-bottom: 2px solid #fff;
 }
 
+footer {
+  margin-top: 50px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+
 @media all and (max-width: 400px) {
   p {
     word-break: break-word;
+  }
+
+  footer {
+    position: relative;
   }
 }

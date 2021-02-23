@@ -3,7 +3,6 @@
 
 p {
   margin: 80px auto 30px auto;
-  font-size: 21px;
 }
 
 /* menu + icons **/
@@ -55,13 +54,18 @@ h2 img {
   margin-top: -130px;
 }
 
+footer {
+  margin-top: 50px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+}
+
 @media all and (max-width: 767px) {
   p {
     line-height: 1.5;
-    max-width: 350px;
-    font-size: 14px;
-    font-weight: 700;
-    margin: 50px auto 20px auto;
+    margin: 50px 20px 20px 20px;
   }
 
   h2 {
@@ -72,5 +76,9 @@ h2 img {
 
   h2 img {
     border: solid 2px #000;
+  }
+
+  footer {
+    position: relative;
   }
 }

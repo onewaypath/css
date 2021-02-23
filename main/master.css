@@ -23,6 +23,8 @@
 
 html {
   border: solid 20px #fff;
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
 body {
@@ -30,8 +32,6 @@ body {
   background: #cae3d1;
   padding-top: 80px;
   padding-bottom: 30px;
-  min-height: 100vh;
-  box-sizing: border-box;
   max-width: 650px;
   margin: auto;
 }
@@ -120,7 +120,6 @@ footer a {
   font-family: open-sans-regular, sans-serif;
   text-decoration: none;
   color: #030004;
-  font-size: 18px;
 }
 
 footer a:hover {
