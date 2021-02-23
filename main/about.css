@@ -11,14 +11,17 @@ p {
   margin-top: 0px;
 }
 
-h2 + p {
+figure {
   float: left;
+  max-width: 200px;
   margin-right: 20px;
 }
 
-h2 + p img {
+figure img {
   width: 100%;
-  max-width: 200px;
+
+  vertical-align: top;
+  margin-right: 20px;
 }
 
 figcaption {
@@ -26,6 +29,7 @@ figcaption {
 }
 
 @media all and (max-width: 720px) {
+  figure,
   h2,
   p {
     margin-left: 20px;
@@ -34,7 +38,7 @@ figcaption {
 }
 
 @media all and (max-width: 410px) {
-  h2 + p {
+  figure {
     float: none;
     margin-right: 20px;
   }
