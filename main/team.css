@@ -1,6 +1,120 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+  max-width: 850px;
+}
 
+h2 {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  text-align: left;
+  max-width: 850px;
+}
 
+h4 {
+  font-weight: 600;
+}
+@media all and (min-width: 850px) {
+  h3,
+  h4,
+  p {
+    text-align: left;
+    float: left;
+    width: 45%;
+    margin-top: 0px;
+  }
 
+  body > p:nth-last-of-type(2),
+  body > p:nth-last-of-type(3) {
+    clear: left;
+  }
+
+  body > p:nth-last-of-type(5) {
+    margin-top: -110px;
+  }
+  body > p:nth-last-of-type(6) {
+    margin-top: -250px;
+  }
+  body > p:nth-last-of-type(7),
+  body > p:nth-last-of-type(8),
+  body > p:nth-last-of-type(9),
+  body > p:nth-last-of-type(10),
+  body > p:nth-last-of-type(11),
+  body > p:nth-last-of-type(12),
+  body > p:nth-last-of-type(13) {
+    float: right;
+    clear: right;
+  }
+  body > p:nth-last-of-type(14) {
+    clear: left;
+  }
+
+  body > h4:nth-last-of-type(2),
+  body > h4:nth-last-of-type(3) {
+    margin-top: 10px;
+    clear: left;
+  }
+
+  body > h4:nth-last-of-type(4) {
+    margin-top: -20px;
+  }
+
+  body > h4:nth-last-of-type(5) {
+    margin-top: -160px;
+  }
+
+  body > h4:nth-last-of-type(6) {
+    margin-top: -300px;
+  }
+
+  body > h3:nth-last-of-type(1) {
+    margin-top: -360px;
+  }
+
+  body > h3:nth-last-of-type(2) {
+    float: right;
+    margin-top: -50px;
+  }
+
+  body > p:last-of-type,
+  body > h4:last-of-type {
+    display: none;
+  }
+
+  footer {
+    margin-top: 50px;
+    width: 100%;
+    clear: both;
+    float: left;
+  }
+  footer p {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+}
+
+@media all and (max-width: 900px) {
+  h2,
+  h3,
+  h4,
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media all and (max-width: 850px) {
+  h2 {
+    text-align: center;
+  }
+  h4,
+  p {
+    margin-top: 0px;
+  }
+
+  h3 {
+    margin-top: 80px;
+  }
+}
