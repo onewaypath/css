@@ -52,8 +52,8 @@ p {
 }
 
 h2 {
-  font-size: 21px;
-  font-weight: 900;
+  font-size: 30px;
+  font-family: "oklahomabold";
 }
 
 h3 {
@@ -179,6 +179,10 @@ footer a:hover {
   body h1:nth-child(2)::before {
     width: 55px;
     margin-left: 12px;
+  }
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 

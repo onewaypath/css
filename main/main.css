@@ -74,10 +74,3 @@ h2 img {
     border: solid 2px #000;
   }
 }
-
-@media all and (max-width: 400px) {
-  p {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}

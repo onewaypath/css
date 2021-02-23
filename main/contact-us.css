@@ -1,2 +1,48 @@
 @charset "UTF-8";
 /* CSS Document: contact-us.css */
+
+h2 {
+  margin-top: 120px;
+  margin-bottom: 35px;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+p b {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p:nth-last-of-type(3),
+p:nth-last-of-type(2),
+body > p:last-of-type {
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  margin-bottom: 0px;
+  max-width: 300px;
+}
+
+p:nth-last-of-type(3) {
+  padding-top: 20px;
+  margin-top: 50px;
+  border-top: 2px solid #fff;
+}
+
+body > p:nth-last-of-type(2) {
+  margin-top: 0px;
+}
+
+body > p:last-of-type {
+  margin-top: 0px;
+  padding-bottom: 20px;
+  margin-bottom: 80px;
+  border-bottom: 2px solid #fff;
+}
+
+@media all and (max-width: 400px) {
+  p {
+    word-break: break-word;
+  }
+}
