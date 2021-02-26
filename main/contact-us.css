@@ -3,6 +3,7 @@
 
 body {
   max-width: 750px;
+  overflow: hidden;
 }
 
 h2 {
