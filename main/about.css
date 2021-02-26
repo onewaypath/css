@@ -15,6 +15,9 @@ figure {
   float: left;
   max-width: 200px;
   margin-right: 20px;
+  font-family: open-sans-regular, sans-serif;
+  font-size: 12px;
+  margin-left: 0px;
 }
 
 figure img {
@@ -28,6 +31,44 @@ figcaption {
   display: none;
 }
 
+p a {
+  color: black;
+}
+
+p a:hover {
+  color: #ca972b;
+}
+
+@media all and (min-width: 768px) {
+  body h1:nth-child(1) {
+    margin-right: -200px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: 0;
+  }
+}
+
+@media all and (min-width: 870px) {
+  body h1:nth-child(1) {
+    margin-right: -350px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: -75px;
+  }
+}
+
+@media all and (min-width: 1020px) {
+  body h1:nth-child(1) {
+    margin-right: -500px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: -150px;
+  }
+}
+
 @media all and (max-width: 720px) {
   figure,
   h2,
@@ -37,9 +78,17 @@ figcaption {
   }
 }
 
-@media all and (max-width: 410px) {
-  figure {
-    float: none;
+@media all and (max-width: 767px) {
+  figure,
+  h2,
+  p {
+    margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
+  }
+  figure {
+    margin: auto;
+    margin-bottom: 20px;
+    float: none;
   }
 }
