@@ -1,5 +1,12 @@
 @charset "UTF-8";
 /* CSS Document: about.css */
+body,
+h2,
+h3,
+h4,
+p {
+  max-width: 850px;
+}
 
 h2 {
   text-align: left;
@@ -14,10 +21,10 @@ p {
 figure {
   float: left;
   max-width: 200px;
-  margin-right: 20px;
   font-family: open-sans-regular, sans-serif;
   font-size: 12px;
   margin-left: 0px;
+  margin-right: 20px;
 }
 
 figure img {
@@ -41,12 +48,12 @@ p a:hover {
 
 @media all and (min-width: 768px) {
   body h1:nth-child(1) {
-    margin-right: -200px;
+    /* margin-right: -200px; */
     font-size: 40px;
   }
 
   body h1:nth-child(2) {
-    margin-right: 0;
+    /* margin-right: 0; */
     font-size: 25px;
   }
 
@@ -61,27 +68,26 @@ p a:hover {
   }
 }
 
-@media all and (min-width: 870px) {
-  body h1:nth-child(1) {
-    margin-right: -350px;
-  }
-
-  body h1:nth-child(2) {
-    margin-right: -75px;
-  }
-}
-
 @media all and (min-width: 1020px) {
   body h1:nth-child(1) {
     margin-right: -500px;
   }
 
   body h1:nth-child(2) {
-    margin-right: -150px;
+    margin-right: -50px;
   }
 }
 
 @media all and (max-width: 720px) {
+  figure,
+  h2,
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media all and (max-width: 950px) {
   figure,
   h2,
   p {
