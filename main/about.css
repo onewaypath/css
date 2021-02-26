@@ -42,10 +42,22 @@ p a:hover {
 @media all and (min-width: 768px) {
   body h1:nth-child(1) {
     margin-right: -200px;
+    font-size: 40px;
   }
 
   body h1:nth-child(2) {
     margin-right: 0;
+    font-size: 25px;
+  }
+
+  body h1:nth-child(2):before {
+    width: 80px;
+    margin-left: 80px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 80px;
+    margin-left: 292px;
   }
 }
 
