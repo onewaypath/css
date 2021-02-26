@@ -5,7 +5,7 @@ h2,
 h3,
 h4,
 p {
-  max-width: 850px;
+  max-width: 750px;
 }
 
 h2 {
@@ -68,13 +68,23 @@ p a:hover {
   }
 }
 
-@media all and (min-width: 1020px) {
+@media all and (min-width: 769px) {
   body h1:nth-child(1) {
-    margin-right: -500px;
+    margin-right: -390px;
   }
 
   body h1:nth-child(2) {
-    margin-right: -50px;
+    margin-right: -45px;
+  }
+}
+
+@media all and (min-width: 1020px) {
+  body h1:nth-child(1) {
+    margin-right: -600px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: -150px;
   }
 }
 
