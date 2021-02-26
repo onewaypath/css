@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document: about.css */
+body {
+  overflow: hidden;
+}
+
 body,
 h2,
 h3,
