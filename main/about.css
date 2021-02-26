@@ -48,12 +48,12 @@ p a:hover {
 
 @media all and (min-width: 768px) {
   body h1:nth-child(1) {
-    /* margin-right: -200px; */
+    margin-right: -390px;
     font-size: 40px;
   }
 
   body h1:nth-child(2) {
-    /* margin-right: 0; */
+    margin-right: -45px;
     font-size: 25px;
   }
 
@@ -65,16 +65,6 @@ p a:hover {
   body h1:nth-child(2):after {
     width: 80px;
     margin-left: 292px;
-  }
-}
-
-@media all and (min-width: 769px) {
-  body h1:nth-child(1) {
-    margin-right: -390px;
-  }
-
-  body h1:nth-child(2) {
-    margin-right: -45px;
   }
 }
 
@@ -106,7 +96,7 @@ p a:hover {
   }
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 768px) {
   figure,
   h2,
   p {

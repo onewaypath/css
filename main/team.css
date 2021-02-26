@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body {
-  max-width: 850px;
+  max-width: 750px;
 }
 
 h2 {
@@ -12,10 +12,55 @@ h2 {
   max-width: 850px;
 }
 
+body h1:nth-child(1) {
+  font-size: 40px;
+}
+
+body h1:nth-child(2) {
+  font-size: 25px;
+}
+
 h4 {
   font-weight: 600;
 }
-@media all and (min-width: 850px) {
+
+@media all and (min-width: 860px) {
+  body {
+    max-width: 800px;
+  }
+  body h1:nth-child(1) {
+    margin-right: -440px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: -45px;
+  }
+
+  body h1:nth-child(2):before {
+    width: 80px;
+    margin-left: 80px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 80px;
+    margin-left: 292px;
+  }
+}
+
+@media all and (min-width: 1020px) {
+  body {
+    max-width: 850px;
+  }
+  body h1:nth-child(1) {
+    margin-right: -600px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: -100px;
+  }
+}
+
+@media all and (min-width: 860px) {
   h3,
   h4,
   p {
@@ -95,17 +140,25 @@ h4 {
   }
 }
 
-@media all and (max-width: 900px) {
+@media all and (max-width: 930px) {
   h2,
   h3,
   h4,
   p {
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
-@media all and (max-width: 850px) {
+@media all and (max-width: 860px) {
+  body h1:nth-child(2)::before {
+    width: 85px;
+    margin-left: 85px;
+  }
+  body h1:nth-child(2)::after {
+    width: 80px;
+    margin-left: 284px;
+  }
   h2 {
     text-align: center;
   }
