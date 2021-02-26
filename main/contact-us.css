@@ -55,12 +55,12 @@ footer {
 
 @media all and (min-width: 768px) {
   body h1:nth-child(1) {
-    margin-right: -390px;
+    margin-right: -380px;
     font-size: 40px;
   }
 
   body h1:nth-child(2) {
-    margin-right: -45px;
+    margin-right: -40px;
     font-size: 25px;
   }
 
@@ -75,22 +75,27 @@ footer {
   }
 }
 
-@media all and (min-width: 1020px) {
+@media all and (min-width: 950px) {
   body h1:nth-child(1) {
-    margin-right: -600px;
+    margin-right: -420px;
   }
 
   body h1:nth-child(2) {
-    margin-right: -150px;
+    margin-right: -60px;
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 768px) {
   p {
     word-break: break-word;
   }
 
   footer {
     position: relative;
+  }
+
+  footer p {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
