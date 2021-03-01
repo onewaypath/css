@@ -7,23 +7,36 @@ body {
 }
 
 h2 {
-  margin-top: 80px;
-  margin-bottom: 60px;
-  text-align: left;
-  max-width: 850px;
+  max-width: 750px;
 }
 
 h4 {
   font-weight: 600;
 }
 
-@media all and (min-width: 860px) {
+body > p:last-of-type,
+body > h4:last-of-type {
+  display: none;
+}
+
+@media all and (min-width: 800px) {
+  h2 {
+    text-align: left;
+  }
+
+  h4,
+  p {
+    margin-top: 0px;
+  }
+
   body h1:nth-child(1) {
     margin-right: -420px;
+    font-size: 40px;
   }
 
   body h1:nth-child(2) {
     margin-right: -60px;
+    font-size: 25px;
   }
 
   body h1:nth-child(2):before {
@@ -35,73 +48,43 @@ h4 {
     width: 80px;
     margin-left: 292px;
   }
-}
 
-@media all and (min-width: 860px) {
-  h3,
-  h4,
-  p {
-    text-align: left;
+  /*style for "First Heading 1" */
+
+  h3:nth-of-type(1),
+  h3:nth-of-type(1) ~ p {
     float: left;
-    width: 40%;
-    margin-top: 0px;
-  }
-
-  body > p:nth-last-of-type(2),
-  body > p:nth-last-of-type(3) {
     clear: left;
+    text-align: left;
+    width: 40%;
   }
 
-  body > p:nth-last-of-type(5) {
-    margin-top: -110px;
-  }
-  body > p:nth-last-of-type(6) {
-    margin-top: -250px;
-  }
-  body > p:nth-last-of-type(7),
-  body > p:nth-last-of-type(8),
-  body > p:nth-last-of-type(9),
-  body > p:nth-last-of-type(10),
-  body > p:nth-last-of-type(11),
-  body > p:nth-last-of-type(12),
-  body > p:nth-last-of-type(13) {
+  /*style for "Second Heading 1" */
+
+  h3:nth-of-type(2),
+  h3:nth-of-type(2) ~ p {
     float: right;
     clear: right;
-  }
-  body > p:nth-last-of-type(14) {
-    clear: left;
-  }
-
-  body > h4:nth-last-of-type(2),
-  body > h4:nth-last-of-type(3) {
-    margin-top: 10px;
-    clear: left;
+    text-align: left;
+    width: 40%;
+    margin-left: 10%;
   }
 
-  body > h4:nth-last-of-type(4) {
-    margin-top: -20px;
-  }
-
-  body > h4:nth-last-of-type(5) {
-    margin-top: -160px;
-  }
-
-  body > h4:nth-last-of-type(6) {
-    margin-top: -300px;
-  }
-
-  body > h3:nth-last-of-type(1) {
-    margin-top: -360px;
-  }
-
-  body > h3:nth-last-of-type(2) {
-    float: right;
+  h3:nth-of-type(2) {
     margin-top: -50px;
   }
 
-  body > p:last-of-type,
-  body > h4:last-of-type {
-    display: none;
+  /*style for "third Heading 1" */
+
+  h3:nth-of-type(3),
+  h3:nth-of-type(3) ~ p,
+  h3:nth-of-type(3) ~ h4 {
+    text-align: left;
+    float: none;
+    margin: initial;
+    clear: none;
+    margin-top: 20px;
+    width: 40%;
   }
 
   footer {
@@ -117,56 +100,28 @@ h4 {
   }
 }
 
-@media all and (min-width: 860px) {
+@media (min-width: 490px) and (max-width: 800px) {
   body h1:nth-child(1) {
-    font-size: 40px;
+    font-size: 38px;
   }
-
   body h1:nth-child(2) {
-    font-size: 25px;
+    font-size: 21px;
   }
-}
-
-@media all and (max-width: 930px) {
-  h2,
-  h3,
-  h4,
-  p {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-@media all and (min-width: 490px) and (max-width: 860px) {
-  body h1:nth-child(1) {
-    font-size: 40px;
-  }
-
   body h1:nth-child(2) {
-    font-size: 25px;
+    text-transform: uppercase;
+    font-family: oklahomaregular, arial;
+    font-weight: normal;
+    line-height: 0px;
+    max-width: 450px;
+    margin: auto;
+    color: #000;
   }
-
   body h1:nth-child(2)::before {
     width: 85px;
     margin-left: 85px;
   }
-
-  body h1:nth-child(2)::after {
+  body h1:nth-child(2):after {
     width: 80px;
     margin-left: 284px;
-  }
-}
-
-@media all and (max-width: 860px) {
-  h2 {
-    text-align: center;
-  }
-  h4,
-  p {
-    margin-top: 0px;
-  }
-
-  h3 {
-    margin-top: 80px;
   }
 }
