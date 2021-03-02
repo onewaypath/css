@@ -1,65 +1,16 @@
 @charset "UTF-8";
 /* CSS Document: privacy.css */
 
-@media all and (min-width: 769px) {
-  body {
-    max-width: 850px;
-  }
+h2 {
+  margin-top: 100px;
+}
+h3,
+p {
+  margin-top: 30px;
+}
 
-  h2,
-  h3,
-  h4,
-  p {
-    margin-top: initial;
-  }
-
-  body > h2:nth-last-of-type(2) {
-    width: 45%;
-    float: left;
-    margin-top: 150px;
-    margin-bottom: 10px;
-  }
-
-  body > h2:nth-last-of-type(1) {
-    float: right;
-    width: 45%;
-    margin-top: -93px;
-    margin-bottom: 10px;
-  }
-
-  body > h3:nth-last-of-type(2) {
-    width: 45%;
-    float: left;
-    clear: both;
-  }
-
-  body > h3:nth-last-of-type(1) {
-    float: right;
-    width: 45%;
-    clear: both;
-    margin-top: -68px;
-  }
-
-  body > p:nth-last-of-type(2) {
-    width: 45%;
-    float: left;
-    clear: both;
-  }
-
-  body > p:nth-last-of-type(1) {
-    float: right;
-    width: 45%;
-    clear: both;
-    margin-top: -23px;
-  }
-
-  footer {
-    margin-top: 50px;
-    position: absolute;
-    bottom: 30px;
-    left: 0;
-    width: 100%;
-  }
+footer {
+  margin-top: 100px;
 }
 
 @media all and (max-width: 768px) {
@@ -77,9 +28,5 @@
   h2 {
     margin-left: 20px;
     margin-right: 20px;
-  }
-
-  footer {
-    position: relative;
   }
 }
