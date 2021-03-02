@@ -14,7 +14,7 @@ p {
 
 h2 {
   text-align: left;
-  margin-top: 80px;
+  margin-top: 68px;
 }
 
 p {
@@ -26,16 +26,17 @@ figure {
   float: left;
   max-width: 200px;
   font-family: open-sans-regular, sans-serif;
-  font-size: 12px;
   margin-left: 0px;
   margin-right: 20px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 figure img {
   width: 100%;
-
   vertical-align: top;
   margin-right: 20px;
+  margin-bottom: 5px;
 }
 
 figcaption {
@@ -50,48 +51,49 @@ p a:hover {
   color: #ca972b;
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 800px) {
   body h1:nth-child(1) {
-    margin-right: -380px;
-    font-size: 40px;
+    margin-right: -480px;
+    font-size: 32px;
   }
 
   body h1:nth-child(2) {
-    margin-right: -40px;
-    font-size: 25px;
+    margin-right: -90px;
+    font-size: 20px;
   }
 
   body h1:nth-child(2):before {
-    width: 80px;
-    margin-left: 80px;
+    width: 60px;
+    margin-left: 108px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 60px;
+    margin-left: 282px;
+  }
+}
+
+@media all and (min-width: 491px) and (max-width: 799px) {
+  body h1:nth-child(1) {
+    font-size: 38px;
+  }
+
+  body h1:nth-child(2) {
+    font-size: 21px;
+  }
+
+  body h1:nth-child(2)::before {
+    width: 85px;
+    margin-left: 85px;
   }
 
   body h1:nth-child(2):after {
     width: 80px;
-    margin-left: 292px;
+    margin-left: 284px;
   }
 }
 
-@media all and (min-width: 950px) {
-  body h1:nth-child(1) {
-    margin-right: -420px;
-  }
-
-  body h1:nth-child(2) {
-    margin-right: -60px;
-  }
-}
-
-@media all and (max-width: 950px) {
-  figure,
-  h2,
-  p {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-}
-
-@media all and (max-width: 768px) {
+@media all and (max-width: 799px) {
   figure,
   h2,
   p {
@@ -99,9 +101,18 @@ p a:hover {
     margin-right: 20px;
     text-align: center;
   }
+  h2 {
+    font-size: 25px;
+  }
   figure {
     margin: auto;
     margin-bottom: 20px;
     float: none;
+  }
+}
+
+@media all and (max-width: 400px) {
+  h2 {
+    font-size: 16px;
   }
 }
