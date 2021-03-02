@@ -57,42 +57,39 @@ body > h4:last-of-type {
     margin-left: 292px;
   }
 
-  /*style for "First Heading 1" */
+  /*style for "First Heading" */
 
   h3:nth-of-type(1),
   h3:nth-of-type(1) ~ p {
     float: left;
     clear: left;
     text-align: left;
-    width: 40%;
+    width: 60%;
   }
 
-  /*style for "Second Heading 1" */
+  /*style for "Second Heading" */
 
   h3:nth-of-type(2),
   h3:nth-of-type(2) ~ p {
-    float: right;
-    clear: right;
+    float: left;
+    clear: left;
     text-align: left;
-    width: 40%;
-    margin-left: 10%;
+    width: 60%;
   }
 
-  h3:nth-of-type(2) {
-    margin-top: -50px;
+  body > p:nth-of-type(8) {
+    min-height: 200px;
   }
 
-  /*style for "third Heading 1" */
+  /*style for "third Heading" */
 
   h3:nth-of-type(3),
   h3:nth-of-type(3) ~ p,
   h3:nth-of-type(3) ~ h4 {
     text-align: left;
-    float: none;
-    margin: initial;
-    clear: none;
-    margin-top: 20px;
     width: 40%;
+    float: none;
+    display: inline-block;
   }
 
   footer {
