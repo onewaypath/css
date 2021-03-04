@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "oklahomabold";
-  src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/oklahoma_bold-webfont.woff")
+  src: url("cfonts/oklahoma_bold-webfont.woff")
     format("woff");
   /*src: url("../fonts/oklahoma_bold-webfont.woff") format("woff");*/
   font-display: swap;
@@ -20,7 +20,7 @@
 
 @font-face {
   font-family: "open-sans-regular";
-  src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/open-sans-regular.ttf");
+  src: url("cfonts/open-sans-regular.ttf");
   /*src: url("../fonts/open-sans-regular.ttf");*/
   font-display: swap;
 }
