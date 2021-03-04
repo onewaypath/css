@@ -54,38 +54,6 @@ footer {
   width: 100%;
 }
 
-@media all and (min-width: 768px) {
-  body h1:nth-child(1) {
-    margin-right: -380px;
-    font-size: 40px;
-  }
-
-  body h1:nth-child(2) {
-    margin-right: -40px;
-    font-size: 25px;
-  }
-
-  body h1:nth-child(2):before {
-    width: 80px;
-    margin-left: 80px;
-  }
-
-  body h1:nth-child(2):after {
-    width: 80px;
-    margin-left: 292px;
-  }
-}
-
-@media all and (min-width: 950px) {
-  body h1:nth-child(1) {
-    margin-right: -420px;
-  }
-
-  body h1:nth-child(2) {
-    margin-right: -60px;
-  }
-}
-
 @media all and (max-width: 768px) {
   p {
     word-break: break-word;
