@@ -6,10 +6,11 @@ body {
   overflow: hidden;
 }
 
+/*
 h2 {
   margin-top: 120px;
   margin-bottom: 35px;
-}
+}*/
 p {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -45,10 +46,12 @@ body > p:last-of-type {
   margin-bottom: 80px;
   border-bottom: 2px solid #fff;
 }
-
+p:nth-of-type(1) {
+  margin-top: 80px;
+}
 footer {
   margin-top: 50px;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 30px;
   left: 0;
   width: 100%;

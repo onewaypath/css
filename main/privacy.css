@@ -1,12 +1,20 @@
 @charset "UTF-8";
 /* CSS Document: privacy.css */
 
-h2 {
+h3 {
   margin-top: 100px;
 }
-h3,
+
+h3:nth-of-type(2) {
+	margin-top:50px;
+}
+
+h4 {
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
 p {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 footer {
@@ -14,18 +22,18 @@ footer {
 }
 
 @media all and (max-width: 768px) {
-  h2 {
+  h3 {
     margin-top: 100px;
   }
 
-  h3,
+  h4,
   p {
     margin-top: 0px;
   }
 
   p,
   h3,
-  h2 {
+  h4 {
     margin-left: 20px;
     margin-right: 20px;
   }
