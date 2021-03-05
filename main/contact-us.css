@@ -24,8 +24,8 @@ p b {
 p:nth-last-of-type(3),
 p:nth-last-of-type(2),
 body > p:last-of-type {
-  border-right: 2px solid #fff;
-  border-left: 2px solid #fff;
+  border-right: 2px solid #ca972b;
+  border-left: 2px solid #ca972b;
   margin-bottom: 0px;
   max-width: 300px;
 }
@@ -33,7 +33,7 @@ body > p:last-of-type {
 p:nth-last-of-type(3) {
   padding-top: 20px;
   margin-top: 50px;
-  border-top: 2px solid #fff;
+  border-top: 2px solid #ca972b;
 }
 
 body > p:nth-last-of-type(2) {
@@ -44,7 +44,7 @@ body > p:last-of-type {
   margin-top: 0px;
   padding-bottom: 20px;
   margin-bottom: 80px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ca972b; /* #fff */
 }
 p:nth-of-type(1) {
   margin-top: 80px;
