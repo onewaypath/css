@@ -12,9 +12,6 @@ body > header {
 }
 
 body > section:nth-child(2) {
-<<<<<<< HEAD
-  margin-top: 50px;
-=======
   margin-top: 80px;
   width: 100%;
 }
@@ -25,7 +22,6 @@ body > section:nth-child(2) h2 {
 
 body > section:nth-child(2) p {
   max-width: 100%;
->>>>>>> df19da6a7016b50131091a96614dec31e702e352
 }
 
 body > section:nth-child(3) {
@@ -33,7 +29,7 @@ body > section:nth-child(3) {
 }
 body > section:nth-child(4) {
   order: 2;
-  margin-top: -60px;
+  margin-top: -160px;
 }
 body > section:nth-child(5) {
   order: 1;
