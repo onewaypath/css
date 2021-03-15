@@ -1,3 +1,116 @@
-@charset "UTF-8";
-/* CSS Document "Team Select" */
+/** 15-03-2021 14:00pm **/
+body {
+  overflow: hidden;
+}
 
+body,
+h2,
+h3,
+h4,
+p {
+  max-width: 750px;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 0px;
+  font-size: 15px;
+  text-decoration: none;
+  border-bottom: solid 2px #ca972b;
+  width: 180px;
+  margin: 0px;
+}
+
+h2 {
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  font-size: 22px;
+  color: #ca972b;
+  text-transform: uppercase;
+}
+
+p {
+  text-align: left;
+  margin-top: 0px;
+}
+
+img {
+  padding: 5px;
+  border: solid 3px #ca972b;
+  float: left;
+  margin-top: -220px;
+  width: 125px;
+}
+
+@media all and (min-width: 800px) {
+  body h1:nth-child(1) {
+    margin-right: -420px;
+    font-size: 40px;
+  }
+
+  body h1:nth-child(2) {
+    margin-right: -60px;
+    font-size: 25px;
+  }
+
+  body h1:nth-child(2):before {
+    width: 80px;
+    margin-left: 80px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 80px;
+    margin-left: 292px;
+  }
+}
+
+@media all and (min-width: 491px) and (max-width: 799px) {
+  body h1:nth-child(1) {
+    font-size: 38px;
+  }
+
+  body h1:nth-child(2) {
+    font-size: 21px;
+  }
+
+  body h1:nth-child(2)::before {
+    width: 85px;
+    margin-left: 85px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 80px;
+    margin-left: 284px;
+  }
+}
+
+@media all and (max-width: 799px) {
+  h2,
+  h3,
+  h4,
+  p,
+  img {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  h2 {
+    margin-top: 190px;
+    font-size: 20px;
+  }
+
+  img {
+    margin-top: -180px;
+  }
+}
+
+@media all and (max-width: 400px) {
+  h2 {
+    margin-top: 240px;
+  }
+
+  img {
+    margin-top: -220px;
+  }
+}
