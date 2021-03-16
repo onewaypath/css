@@ -1,5 +1,5 @@
-@charset "UTF-8";
-/* CSS Document: about.css */
+/* 15-03-2021 12:03 PM */
+
 body {
   overflow: hidden;
 }
@@ -110,6 +110,7 @@ p a:hover {
     margin-bottom: 20px;
     float: none;
     text-align: left;
+    font-size: 13px;
   }
 }
 
