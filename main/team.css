@@ -29,7 +29,7 @@ body > section:nth-child(3) {
 }
 body > section:nth-child(4) {
   order: 2;
-  margin-top: -160px;
+  margin-top: -320px;
 }
 body > section:nth-child(5) {
   order: 1;
