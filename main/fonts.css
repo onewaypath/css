@@ -1,0 +1,19 @@
+/** 21-03-2020 21:30 **/
+
+@font-face {
+  font-family: "oklahomaregular";
+  src: url("cfonts/oklahoma_normal-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "oklahomabold";
+  src: url("cfonts/oklahoma_bold-webfont.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "open-sans-regular";
+  src: url("cfonts/open-sans-regular.ttf");
+  font-display: swap;
+}

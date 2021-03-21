@@ -1,29 +1,4 @@
 @charset "UTF-8";
-/* CSS Document */
-
-@font-face {
-  font-family: "oklahomaregular";
-  /*src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/oklahoma_normal-webfont.woff")*/
-   src: url("cfonts/oklahoma_normal-webfont.woff")
-	format("woff");
-  /*src: url("../fonts/oklahoma_normal-webfont.woff") format("woff");*/
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "oklahomabold";
-  src: url("cfonts/oklahoma_bold-webfont.woff")
-    format("woff");
-  /*src: url("../fonts/oklahoma_bold-webfont.woff") format("woff");*/
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "open-sans-regular";
-  src: url("cfonts/open-sans-regular.ttf");
-  /*src: url("../fonts/open-sans-regular.ttf");*/
-  font-display: swap;
-}
 
 /* basic **/
 
@@ -37,13 +12,7 @@ html {
 
 body {
   text-align: center;
-/*
-<<<<<<< HEAD:main/style.css
-  margin: 0px;
-  background: #dae1e7;
-=======*/
   background: #cae3d1;
-
   padding-top: 80px;
   padding-bottom: 30px;
   max-width: 650px;
@@ -75,7 +44,7 @@ h3 {
 }
 
 h4 {
-	font-size:18px;
+  font-size: 18px;
 }
 
 p {
@@ -142,7 +111,6 @@ footer a {
 
 footer a:hover {
   color: #ca972b;
-<<<<<<< HEAD:main/style.css
 }
 
 h2 a img:nth-child(2) {
@@ -160,7 +128,6 @@ h2 a:hover img:nth-child(1) {
 h2 img {
   margin-top: -130px;
 }
-
 
 /** media query **/
 @media all and (max-width: 767px) {
