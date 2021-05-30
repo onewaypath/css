@@ -142,3 +142,38 @@ li {
   color: #ca972b;
 }
 
+/** media query **/
+@media all and (max-width: 767px) {
+  
+  body h1:nth-child(2)::before {
+    width: 40px;
+    margin-left: 105px;
+  }
+
+  body h1:nth-child(2):after {
+    width: 40px;
+    margin-left: 305px;
+  }
+}
+
+@media all and (max-width: 490px) {
+  
+  body h1:nth-child(2):after {
+    display: none;
+  }
+
+  body h1:nth-child(2)::before {
+    display: none;
+  }
+}
+
+@media all and (max-width: 400px) {
+  
+  body h1:nth-child(2):after {
+    display: none;
+  }
+
+  body h1:nth-child(2)::before {
+    display: none;
+  }
+}
