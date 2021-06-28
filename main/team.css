@@ -26,10 +26,11 @@ body > section:nth-child(2) p {
 
 body > section:nth-child(3) {
   order: 1;
+  width: 50%;
 }
 body > section:nth-child(4) {
   order: 2;
-  margin-top: -320px;
+  margin-top: -280px;
 }
 body > section:nth-child(5) {
   order: 1;
@@ -48,6 +49,10 @@ h4,
 p {
   text-align: left;
   margin-top: 0px;
+}
+
+section a {
+  text-decoration: none;
 }
 
 section a:hover,
@@ -143,6 +148,11 @@ p a:hover {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  body > section:nth-child(3) {
+    width: 100%;
+  }
+
   body > section:nth-child(4) {
     margin-top: 0;
   }
