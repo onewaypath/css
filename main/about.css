@@ -17,9 +17,23 @@ h2 {
   margin-top: 68px;
 }
 
+h3 {
+	text-align: left;
+}
+
 p {
   text-align: left;
   margin-top: 0px;
+}
+
+li {
+  font-family: open-sans-regular, sans-serif;
+  color: #030004;
+  font-weight: 400;
+  font-size: 16px;
+  /*max-width: 650px;*/
+  line-height: 30px;
+  text-align: left;
 }
 
 figure {
