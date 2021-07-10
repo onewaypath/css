@@ -5,11 +5,11 @@ h4,
 p {
   max-width: 1280px;
   background: transparent;
-
   margin-left: 0px;
 }
 
 body {
+  margin: auto;
   /*display: flex;
   flex-direction: row;
   flex-wrap: wrap;*/
