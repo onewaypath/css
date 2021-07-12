@@ -1,3 +1,40 @@
+
+
+
+
+body h1:nth-child(1) {
+  /*color: #ca972b;*/
+  color: #000;
+  text-transform: none;
+  font-size: 60px;
+  
+  font-family: muli-regular;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+body h1:nth-child(2) {
+  
+  font-size: 26px;
+  /*color: #ca972b;*/
+  color: #000;
+  text-transform: none;
+  font-family: lato-regular;
+  font-weight: normal;
+  line-height: 0px;
+  max-width: 450px;
+  margin: auto;
+ 
+}
+
+h2, h3, h4 {
+    font-family: muli-regular;
+}
+
+p {
+    font-family: lato-regular;
+}
+
 body,
 h2,
 h3,
