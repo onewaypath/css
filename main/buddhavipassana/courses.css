@@ -1,38 +1,16 @@
-body h1:nth-child(1) {
+body,
+h2,
+h3,
+h4,
+p {
+  max-width: 1280px;
+  margin-left: 0px;
   text-align: left;
-  color: #000;
-  text-transform: none;
-  font-size: 2.5em;
-  font-family: muli-regular;
-  font-weight: 300;
-  margin-bottom: 10px;
 }
 
-@media all and (max-width: 490px) {
-  body h1:nth-child(1) {
-    font-size: 1.8em;
-    word-break: break-all;
-  }
-}
-
-body h1:nth-child(2) {
-  font-size: 1em;
-  color: #000;
-  text-transform: none;
-  font-family: lato-regular;
-  font-weight: 300;
-  line-height: 0px;
-  text-align: left;
-  max-width: none;
-  margin-bottom: 20px;
-}
-
-body h1:nth-child(2):before {
-  display: none;
-}
-
-body h1:nth-child(2):after {
-  display: none;
+body {
+  margin: auto;
+  padding: 0px 20px;
 }
 
 h2,
@@ -55,18 +33,16 @@ h3 {
   font-size: 1.42857em;
 }
 
-body,
-h2,
-h3,
-h4,
-p {
-  max-width: 1280px;
-  margin-left: 0px;
+img {
+  border: solid 4px #b07c18;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
-body {
-  margin: auto;
-  padding: 0px 20px;
+p a,
+p a:hover {
+  color: #b07c18;
+  text-decoration: none;
 }
 
 @media all and (max-width: 1280px) {
@@ -85,13 +61,46 @@ body {
   }
 }
 
-p a,
-p a:hover {
-  color: #b07c18;
-  text-decoration: none;
+/** title **/
+body h1:nth-child(1) {
+  color: #000;
+  text-transform: none;
+  font-size: 2.5em;
+  font-family: muli-regular;
+  font-weight: 300;
+  margin-bottom: 10px;
 }
 
-section .desktop-home {
+@media all and (max-width: 490px) {
+  body h1:nth-child(1) {
+    font-size: 1.8em;
+    word-break: break-all;
+  }
+}
+
+body h1:nth-child(2) {
+  font-size: 1em;
+  color: #000;
+  text-transform: none;
+  font-family: lato-regular;
+  font-weight: 300;
+  line-height: 0px;
+  max-width: none;
+  margin-bottom: 20px;
+}
+
+body h1:nth-child(2):before {
+  display: none;
+}
+
+body h1:nth-child(2):after {
+  display: none;
+}
+
+/** section 1- hidden **/
+
+/** section 2 **/
+section:nth-of-type(2) .desktop-home {
   height: 100%;
   max-height: 580px;
   position: relative;
@@ -101,20 +110,6 @@ section .desktop-home {
   max-width: 100%;
 }
 
-/** section 1 **/
-body section:nth-of-type(1) {
-  padding-top: 20px;
-}
-
-body section:nth-of-type(1) * {
-  text-align: left;
-}
-
-body section:nth-of-type(1) p {
-  margin-top: 20px;
-}
-
-/** section 2 **/
 body section:nth-of-type(2) form,
 body section:nth-of-type(2) p:nth-of-type(1) {
   width: 300px;
@@ -133,7 +128,6 @@ body section:nth-of-type(2) form {
 }
 
 body section:nth-of-type(2) p:nth-of-type(1) {
-  text-align: left;
   margin-top: -440px;
   padding-bottom: 10px;
   font-size: 25px;
@@ -158,11 +152,6 @@ body section:nth-of-type(2) input[type="submit"] {
   cursor: pointer;
   font-weight: 600;
   font-size: 18px;
-}
-
-body section:nth-of-type(2) h2,
-body section:nth-of-type(2) p {
-  text-align: left;
 }
 
 body section:nth-of-type(2) h2 {
@@ -237,7 +226,6 @@ body section:nth-of-type(3) ul li a {
 body section:nth-of-type(3) ul li h3 {
   margin-top: 18px;
   color: #b07c18;
-  text-align: left;
   font-size: 18px;
   margin-left: 15px;
   text-decoration: none;
@@ -271,7 +259,6 @@ body section:nth-of-type(6) {
 body section:nth-of-type(4) h3,
 body section:nth-of-type(5) h3,
 body section:nth-of-type(6) h3 {
-  text-align: left;
   text-decoration: none;
 }
 
@@ -279,12 +266,6 @@ body section:nth-of-type(4) img,
 body section:nth-of-type(5) img,
 body section:nth-of-type(6) img {
   width: 100%;
-}
-
-body section:nth-of-type(4) p,
-body section:nth-of-type(5) p,
-body section:nth-of-type(6) p {
-  text-align: left;
 }
 
 @media all and (max-width: 767px) {
@@ -312,11 +293,6 @@ body section:nth-of-type(7) {
 
 body section:nth-of-type(7) h2 {
   padding-top: 50px;
-}
-
-body section:nth-of-type(7) h2,
-body section:nth-of-type(7) p {
-  text-align: left;
 }
 
 body section:nth-of-type(7) p {

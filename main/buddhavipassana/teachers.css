@@ -1,0 +1,159 @@
+body,
+h2,
+h3,
+p {
+  max-width: 1280px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+body {
+  margin: auto;
+  padding: 0px 20px;
+}
+
+h2,
+h3 {
+  font-family: lato-regular;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+p {
+  font-family: lato-regular;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #b07c18;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #b07c18;
+}
+
+img {
+  border: solid 4px #b07c18;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+ul {
+  padding: 0px;
+}
+
+ul li {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+}
+
+p a,
+p a:hover {
+  color: #b07c18;
+  text-decoration: none;
+}
+
+@media all and (max-width: 1280px) {
+  body,
+  h2,
+  h3,
+  h4,
+  p {
+    max-width: 992px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  ul li {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media all and (max-width: 490px) {
+  h3 {
+    margin-top: 20px;
+  }
+}
+
+/** title **/
+body h1:nth-child(1) {
+  text-align: left;
+  color: #000;
+  text-transform: none;
+  font-size: 2.5em;
+  font-family: muli-regular;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+@media all and (max-width: 490px) {
+  body h1:nth-child(1) {
+    font-size: 1.8em;
+    word-break: break-all;
+  }
+}
+
+body h1:nth-child(2) {
+  font-size: 1em;
+  color: #000;
+  text-transform: none;
+  font-family: lato-regular;
+  font-weight: 300;
+  line-height: 0px;
+  text-align: left;
+  max-width: none;
+  margin-bottom: 20px;
+}
+
+body h1:nth-child(2):before {
+  display: none;
+}
+
+body h1:nth-child(2):after {
+  display: none;
+}
+
+/** .teacher-wrap content **/
+
+.teacher-wrap {
+  margin-top: 40px;
+}
+
+.teacher-wrap .teacher-right {
+  float: right;
+  width: 24%;
+}
+
+.teacher-wrap .teacher-left {
+  float: left;
+  width: 70%;
+}
+
+.teacher-wrap .clear {
+  clear: both;
+}
+
+@media all and (max-width: 767px) {
+  .teacher-wrap .teacher-right {
+    float: none;
+    width: 100%;
+  }
+
+  .teacher-wrap .teacher-left {
+    margin-top: 30px;
+    float: none;
+    width: 100%;
+  }
+}
