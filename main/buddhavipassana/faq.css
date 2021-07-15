@@ -25,6 +25,12 @@ p {
   margin-top: 0px;
 }
 
+p a,
+p a:hover {
+  color: #b07c18;
+  text-decoration: none;
+}
+
 ul {
   padding: 0;
 }

@@ -19,6 +19,12 @@ p {
   font-size: 14px;
 }
 
+p a,
+p a:hover {
+  color: #b07c18;
+  text-decoration: none;
+}
+
 li {
   font-family: lato-regular;
   line-height: 1.8;
