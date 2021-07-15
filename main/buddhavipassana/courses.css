@@ -202,7 +202,6 @@ body section:nth-of-type(2) p {
 body section:nth-of-type(3) ul {
   margin-top: 30px;
   padding: 0px;
-  min-height: 300px;
 }
 
 body section:nth-of-type(3) ul li {
@@ -212,7 +211,7 @@ body section:nth-of-type(3) ul li {
   box-shadow: 0 2px 5px rgba(107, 107, 107, 0.8);
   margin-right: 2%;
   box-sizing: border-box;
-  min-height: 300px;
+  padding-bottom: 40px;
 }
 
 body section:nth-of-type(3) ul li img {

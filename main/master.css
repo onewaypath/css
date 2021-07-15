@@ -5,39 +5,36 @@
 @font-face {
   font-family: "oklahomaregular";
   /*src: url("https://raw.githubusercontent.com/onewaypath/css/master/fonts/oklahoma_normal-webfont.woff")*/
-  src: url("../cfonts/oklahoma_normal-webfont.woff") format("woff");
+  src: url("../fonts/oklahoma_normal-webfont.woff") format("woff");
   /*src: url("../fonts/oklahoma_normal-webfont.woff") format("woff");*/
   font-display: swap;
 }
 
 @font-face {
   font-family: "oklahomabold";
-  src: url("../cfonts/oklahoma_bold-webfont.woff") format("woff");
+  src: url("../fonts/oklahoma_bold-webfont.woff") format("woff");
   /*src: url("../fonts/oklahoma_bold-webfont.woff") format("woff");*/
   font-display: swap;
 }
 
 @font-face {
   font-family: "open-sans-regular";
-  src: url("../cfonts/open-sans-regular.ttf");
+  src: url("../fonts/open-sans-regular.ttf");
   /*src: url("../fonts/open-sans-regular.ttf");*/
   font-display: swap;
 }
 
-
 @font-face {
   font-family: "lato-regular";
-  src: url("../../cfonts/lato-regular.ttf");
+  src: url("../../fonts/lato-regular.ttf");
   font-display: swap;
 }
-
 
 @font-face {
   font-family: "muli-regular";
-  src: url("../../cfonts/muli.ttf");
+  src: url("../../fonts/muli.ttf");
   font-display: swap;
 }
-
 
 /* basic **/
 
